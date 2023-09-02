@@ -138,7 +138,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     SizedBox(height: 0),
                     Container(
                         height: 50,
-                        margin: const EdgeInsets.symmetric(horizontal: 12.0),
                         alignment: Alignment.center,
                         child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
