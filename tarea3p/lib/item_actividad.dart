@@ -1,22 +1,36 @@
 import 'package:flutter/material.dart';
 
 class ItemActividad extends StatelessWidget {
-  ItemActividad({super.key});
+  final int index;
+  final String dia;
+  final String lugar;
+  final String foto;
+
+  ItemActividad({
+    required this.index,
+    required this.dia,
+    required this.lugar,
+    required this.foto,
+  });
 
   @override
   Widget build(BuildContext context) {
+    int index = 1;
     return Container(
-      padding: EdgeInsets.all(8),
+      padding: EdgeInsets.all(5),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           Container(
-            height: 120,
-            width: 120,
-            color: Colors.purple,
+            height: 100,
+            width: 100,
+            child: Image.asset(
+              foto,
+              fit: BoxFit.cover,
+            ),
           ),
-          Text("Day 1", style: TextStyle(fontSize: 11)),
-          Text("Bali mountains"),
+          Text("Day ${dia}", style: TextStyle(fontSize: 11)),
+          Text(lugar)
         ],
       ),
     );
