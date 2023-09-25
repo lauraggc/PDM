@@ -1,0 +1,110 @@
+{
+	"coins": [
+		{
+			"item": {
+				"id": "verasity",
+				"coin_id": 14025,
+				"name": "Verasity",
+				"symbol": "VRA",
+				"market_cap_rank": 230,
+				"thumb": "https://assets.coingecko.com/coins/images/14025/thumb/VRA.jpg?1613797653",
+				"small": "https://assets.coingecko.com/coins/images/14025/small/VRA.jpg?1613797653",
+				"large": "https://assets.coingecko.com/coins/images/14025/large/VRA.jpg?1613797653",
+				"slug": "verasity",
+				"price_btc": 8.777762525028741e-07,
+				"score": 0
+			}
+		},
+		{
+			"item": {
+				"id": "harmony",
+				"coin_id": 4344,
+				"name": "Harmony",
+				"symbol": "ONE",
+				"market_cap_rank": 72,
+				"thumb": "https://assets.coingecko.com/coins/images/4344/thumb/Y88JAze.png?1565065793",
+				"small": "https://assets.coingecko.com/coins/images/4344/small/Y88JAze.png?1565065793",
+				"large": "https://assets.coingecko.com/coins/images/4344/large/Y88JAze.png?1565065793",
+				"slug": "harmony",
+				"price_btc": 4.068657162861906e-06,
+				"score": 1
+			}
+		},
+		{
+			"item": {
+				"id": "plant-vs-undead-token",
+				"coin_id": 17461,
+				"name": "Plant vs Undead Token",
+				"symbol": "PVU",
+				"market_cap_rank": 426,
+				"thumb": "https://assets.coingecko.com/coins/images/17461/thumb/token-200x200.png?1627883446",
+				"small": "https://assets.coingecko.com/coins/images/17461/small/token-200x200.png?1627883446",
+				"large": "https://assets.coingecko.com/coins/images/17461/large/token-200x200.png?1627883446",
+				"slug": "plant-vs-undead-token",
+				"price_btc": 0.00024405459705529597,
+				"score": 2
+			}
+		},
+		{
+			"item": {
+				"id": "adapad",
+				"coin_id": 18273,
+				"name": "ADAPad",
+				"symbol": "ADAPAD",
+				"market_cap_rank": 659,
+				"thumb": "https://assets.coingecko.com/coins/images/18273/thumb/EhSqPTtG_400x400.jpg?1631181091",
+				"small": "https://assets.coingecko.com/coins/images/18273/small/EhSqPTtG_400x400.jpg?1631181091",
+				"large": "https://assets.coingecko.com/coins/images/18273/large/EhSqPTtG_400x400.jpg?1631181091",
+				"slug": "adapad",
+				"price_btc": 1.1294592545855775e-05,
+				"score": 3
+			}
+		},
+		{
+			"item": {
+				"id": "solana",
+				"coin_id": 4128,
+				"name": "Solana",
+				"symbol": "SOL",
+				"market_cap_rank": 6,
+				"thumb": "https://assets.coingecko.com/coins/images/4128/thumb/coinmarketcap-solana-200.png?1616489452",
+				"small": "https://assets.coingecko.com/coins/images/4128/small/coinmarketcap-solana-200.png?1616489452",
+				"large": "https://assets.coingecko.com/coins/images/4128/large/coinmarketcap-solana-200.png?1616489452",
+				"slug": "solana",
+				"price_btc": 0.004116553520700304,
+				"score": 4
+			}
+		},
+		{
+			"item": {
+				"id": "dydx",
+				"coin_id": 17500,
+				"name": "dYdX",
+				"symbol": "DYDX",
+				"market_cap_rank": 125,
+				"thumb": "https://assets.coingecko.com/coins/images/17500/thumb/hjnIm9bV.jpg?1628009360",
+				"small": "https://assets.coingecko.com/coins/images/17500/small/hjnIm9bV.jpg?1628009360",
+				"large": "https://assets.coingecko.com/coins/images/17500/large/hjnIm9bV.jpg?1628009360",
+				"slug": "dydx",
+				"price_btc": 0.0002871699012480669,
+				"score": 5
+			}
+		},
+		{
+			"item": {
+				"id": "fantom",
+				"coin_id": 4001,
+				"name": "Fantom",
+				"symbol": "FTM",
+				"market_cap_rank": 47,
+				"thumb": "https://assets.coingecko.com/coins/images/4001/thumb/Fantom.png?1558015016",
+				"small": "https://assets.coingecko.com/coins/images/4001/small/Fantom.png?1558015016",
+				"large": "https://assets.coingecko.com/coins/images/4001/large/Fantom.png?1558015016",
+				"slug": "fantom",
+				"price_btc": 3.599131731532606e-05,
+				"score": 6
+			}
+		}
+	],
+	"exchanges": []
+}

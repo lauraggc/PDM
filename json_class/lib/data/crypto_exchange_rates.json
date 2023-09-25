@@ -1,0 +1,370 @@
+{
+	"rates": {
+		"btc": {
+			"name": "Bitcoin",
+			"unit": "BTC",
+			"value": 1.0,
+			"type": "crypto"
+		},
+		"eth": {
+			"name": "Ether",
+			"unit": "ETH",
+			"value": 13.448,
+			"type": "crypto"
+		},
+		"ltc": {
+			"name": "Litecoin",
+			"unit": "LTC",
+			"value": 252.79,
+			"type": "crypto"
+		},
+		"bch": {
+			"name": "Bitcoin Cash",
+			"unit": "BCH",
+			"value": 69.913,
+			"type": "crypto"
+		},
+		"bnb": {
+			"name": "Binance Coin",
+			"unit": "BNB",
+			"value": 107.464,
+			"type": "crypto"
+		},
+		"eos": {
+			"name": "EOS",
+			"unit": "EOS",
+			"value": 9396.277,
+			"type": "crypto"
+		},
+		"xrp": {
+			"name": "XRP",
+			"unit": "XRP",
+			"value": 40246.212,
+			"type": "crypto"
+		},
+		"xlm": {
+			"name": "Lumens",
+			"unit": "XLM",
+			"value": 134483.892,
+			"type": "crypto"
+		},
+		"link": {
+			"name": "Chainlink",
+			"unit": "LINK",
+			"value": 1605.813,
+			"type": "crypto"
+		},
+		"dot": {
+			"name": "Polkadot",
+			"unit": "DOT",
+			"value": 1461.254,
+			"type": "crypto"
+		},
+		"yfi": {
+			"name": "Yearn.finance",
+			"unit": "YFI",
+			"value": 1.322,
+			"type": "crypto"
+		},
+		"usd": {
+			"name": "US Dollar",
+			"unit": "$",
+			"value": 46856.602,
+			"type": "fiat"
+		},
+		"aed": {
+			"name": "United Arab Emirates Dirham",
+			"unit": "DH",
+			"value": 172113.671,
+			"type": "fiat"
+		},
+		"ars": {
+			"name": "Argentine Peso",
+			"unit": "$",
+			"value": 4590400.752,
+			"type": "fiat"
+		},
+		"aud": {
+			"name": "Australian Dollar",
+			"unit": "A$",
+			"value": 63452.742,
+			"type": "fiat"
+		},
+		"bdt": {
+			"name": "Bangladeshi Taka",
+			"unit": "৳",
+			"value": 3993145.32,
+			"type": "fiat"
+		},
+		"bhd": {
+			"name": "Bahraini Dinar",
+			"unit": "BD",
+			"value": 17664.376,
+			"type": "fiat"
+		},
+		"bmd": {
+			"name": "Bermudian Dollar",
+			"unit": "$",
+			"value": 46856.602,
+			"type": "fiat"
+		},
+		"brl": {
+			"name": "Brazil Real",
+			"unit": "R$",
+			"value": 243560.618,
+			"type": "fiat"
+		},
+		"cad": {
+			"name": "Canadian Dollar",
+			"unit": "CA$",
+			"value": 59228.853,
+			"type": "fiat"
+		},
+		"chf": {
+			"name": "Swiss Franc",
+			"unit": "Fr.",
+			"value": 42940.093,
+			"type": "fiat"
+		},
+		"clp": {
+			"name": "Chilean Peso",
+			"unit": "CLP$",
+			"value": 37176028.222,
+			"type": "fiat"
+		},
+		"cny": {
+			"name": "Chinese Yuan",
+			"unit": "¥",
+			"value": 302107.942,
+			"type": "fiat"
+		},
+		"czk": {
+			"name": "Czech Koruna",
+			"unit": "Kč",
+			"value": 1006995.238,
+			"type": "fiat"
+		},
+		"dkk": {
+			"name": "Danish Krone",
+			"unit": "kr.",
+			"value": 294470.363,
+			"type": "fiat"
+		},
+		"eur": {
+			"name": "Euro",
+			"unit": "€",
+			"value": 39598.608,
+			"type": "fiat"
+		},
+		"gbp": {
+			"name": "British Pound Sterling",
+			"unit": "£",
+			"value": 33828.311,
+			"type": "fiat"
+		},
+		"hkd": {
+			"name": "Hong Kong Dollar",
+			"unit": "HK$",
+			"value": 364309.52,
+			"type": "fiat"
+		},
+		"huf": {
+			"name": "Hungarian Forint",
+			"unit": "Ft",
+			"value": 13879394.151,
+			"type": "fiat"
+		},
+		"idr": {
+			"name": "Indonesian Rupiah",
+			"unit": "Rp",
+			"value": 666553122.035,
+			"type": "fiat"
+		},
+		"ils": {
+			"name": "Israeli New Shekel",
+			"unit": "₪",
+			"value": 150185.718,
+			"type": "fiat"
+		},
+		"inr": {
+			"name": "Indian Rupee",
+			"unit": "₹",
+			"value": 3444499.116,
+			"type": "fiat"
+		},
+		"jpy": {
+			"name": "Japanese Yen",
+			"unit": "¥",
+			"value": 5143964.651,
+			"type": "fiat"
+		},
+		"krw": {
+			"name": "South Korean Won",
+			"unit": "₩",
+			"value": 54703892.262,
+			"type": "fiat"
+		},
+		"kwd": {
+			"name": "Kuwaiti Dinar",
+			"unit": "KD",
+			"value": 14089.358,
+			"type": "fiat"
+		},
+		"lkr": {
+			"name": "Sri Lankan Rupee",
+			"unit": "Rs",
+			"value": 9361861.225,
+			"type": "fiat"
+		},
+		"mmk": {
+			"name": "Burmese Kyat",
+			"unit": "K",
+			"value": 77144528.229,
+			"type": "fiat"
+		},
+		"mxn": {
+			"name": "Mexican Peso",
+			"unit": "MX$",
+			"value": 933074.263,
+			"type": "fiat"
+		},
+		"myr": {
+			"name": "Malaysian Ringgit",
+			"unit": "RM",
+			"value": 194220.616,
+			"type": "fiat"
+		},
+		"ngn": {
+			"name": "Nigerian Naira",
+			"unit": "₦",
+			"value": 19276806.164,
+			"type": "fiat"
+		},
+		"nok": {
+			"name": "Norwegian Krone",
+			"unit": "kr",
+			"value": 405830.889,
+			"type": "fiat"
+		},
+		"nzd": {
+			"name": "New Zealand Dollar",
+			"unit": "NZ$",
+			"value": 65796.884,
+			"type": "fiat"
+		},
+		"php": {
+			"name": "Philippine Peso",
+			"unit": "₱",
+			"value": 2335851.196,
+			"type": "fiat"
+		},
+		"pkr": {
+			"name": "Pakistani Rupee",
+			"unit": "₨",
+			"value": 7873803.917,
+			"type": "fiat"
+		},
+		"pln": {
+			"name": "Polish Zloty",
+			"unit": "zł",
+			"value": 180011.351,
+			"type": "fiat"
+		},
+		"rub": {
+			"name": "Russian Ruble",
+			"unit": "₽",
+			"value": 3416666.294,
+			"type": "fiat"
+		},
+		"sar": {
+			"name": "Saudi Riyal",
+			"unit": "SR",
+			"value": 175750.165,
+			"type": "fiat"
+		},
+		"sek": {
+			"name": "Swedish Krona",
+			"unit": "kr",
+			"value": 402971.699,
+			"type": "fiat"
+		},
+		"sgd": {
+			"name": "Singapore Dollar",
+			"unit": "S$",
+			"value": 62824.395,
+			"type": "fiat"
+		},
+		"thb": {
+			"name": "Thai Baht",
+			"unit": "฿",
+			"value": 1530336.629,
+			"type": "fiat"
+		},
+		"try": {
+			"name": "Turkish Lira",
+			"unit": "₺",
+			"value": 395853.337,
+			"type": "fiat"
+		},
+		"twd": {
+			"name": "New Taiwan Dollar",
+			"unit": "NT$",
+			"value": 1296180.177,
+			"type": "fiat"
+		},
+		"uah": {
+			"name": "Ukrainian hryvnia",
+			"unit": "₴",
+			"value": 1251938.876,
+			"type": "fiat"
+		},
+		"vef": {
+			"name": "Venezuelan bolívar fuerte",
+			"unit": "Bs.F",
+			"value": 4691.751,
+			"type": "fiat"
+		},
+		"vnd": {
+			"name": "Vietnamese đồng",
+			"unit": "₫",
+			"value": 1066503123.738,
+			"type": "fiat"
+		},
+		"zar": {
+			"name": "South African Rand",
+			"unit": "R",
+			"value": 664530.407,
+			"type": "fiat"
+		},
+		"xdr": {
+			"name": "IMF Special Drawing Rights",
+			"unit": "XDR",
+			"value": 32906.782,
+			"type": "fiat"
+		},
+		"xag": {
+			"name": "Silver - Troy Ounce",
+			"unit": "XAG",
+			"value": 1938.306,
+			"type": "commodity"
+		},
+		"xau": {
+			"name": "Gold - Troy Ounce",
+			"unit": "XAU",
+			"value": 26.057,
+			"type": "commodity"
+		},
+		"bits": {
+			"name": "Bits",
+			"unit": "μBTC",
+			"value": 1000000.0,
+			"type": "crypto"
+		},
+		"sats": {
+			"name": "Satoshi",
+			"unit": "sats",
+			"value": 100000000.0,
+			"type": "crypto"
+		}
+	}
+}
