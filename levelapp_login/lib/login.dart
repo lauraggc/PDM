@@ -26,179 +26,221 @@ class _LoginState extends State<Login> {
       ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            Container(
-              padding: EdgeInsets.only(
-                  left: 16,
-                  right: 16,
-                  top: 30,
-                  bottom: 30.0), // Agrega espacio en los lados
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16.0), // Bordes redondeados
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey
-                        .withOpacity(0.5), // Color y opacidad de la sombra
-                    spreadRadius: 5,
-                    blurRadius: 7,
-                    offset: Offset(0, 3), // Desplazamiento de la sombra
-                  ),
-                ],
-              ),
-              child: Column(
-                children: [
-                  Text(
-                    "Create Account",
-                    style: TextStyle(
-                      fontSize: 18.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
+        child: Container(
+          margin: const EdgeInsets.only(top: 30.0),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+                horizontal: 16.0), // Espacio en los lados
+            child: Column(
+              children: [
+                Stack(children: [
+                  Container(
+                    height: 110.0,
+                    width: MediaQuery.of(context).size.width / 1.25,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200],
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(
+                            16.0), // Redondea la esquina superior izquierda
+                        topRight: Radius.circular(
+                            16.0), // Redondea la esquina superior derecha
+                      ),
                     ),
                   ),
-                  Text(
-                    "Let's get started by filling the form below.",
-                    style: TextStyle(
-                      fontSize: 12.0,
-                      color: Colors.black,
-                    ),
-                  ),
-                  SizedBox(height: 15.0),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: TextField(
-                          keyboardType: TextInputType.text,
-                          decoration: const InputDecoration(
-                            icon: Icon(Icons.email),
-                            labelText: "E-mail",
-                            iconColor: Colors.black,
-                            focusColor: Colors.green,
-                            fillColor: Colors.green,
-                            hoverColor: Colors.green,
-                            border: OutlineInputBorder(),
-                          ),
+                  Positioned(
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    child: Padding(
+                      padding: const EdgeInsets.all(31.0),
+                      child: Text(
+                        'LEVEL UP',
+                        style: TextStyle(
+                          fontSize: 32.0,
+                          color: Colors.black,
                         ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                Container(
+                  padding:
+                      const EdgeInsets.all(30.0), // Espacio en todos los lados
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(16.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.5),
+                        spreadRadius: 5,
+                        blurRadius: 7,
+                        offset: const Offset(0, 3),
                       ),
                     ],
                   ),
-                  SizedBox(height: 25.0),
-                  Row(
+                  child: Column(
                     children: [
-                      Expanded(
-                        child: TextField(
-                          obscureText:
-                              true, // Hace que el texto sea invisible (contraseña)
-                          decoration: InputDecoration(
-                            icon: Icon(Icons.lock_outline),
-                            labelText: "Password",
-                            iconColor: Colors.black,
-                            focusColor: Colors.green,
-                            fillColor: Colors.green,
-                            hoverColor: Colors.green,
-                            border: OutlineInputBorder(),
-                          ),
+                      Text(
+                        "Log in",
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
                         ),
                       ),
-                    ],
-                  ),
-                  SizedBox(height: 30.0),
-                  Column(
-                    children: [
-                      ElevatedButton(
-                        onPressed: () {
-                          // Tu acción cuando se presione el botón
-                        },
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.green[800],
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30.0),
-                          ),
-                          padding: EdgeInsets.symmetric(
-                              vertical: 20.0, horizontal: 57.0),
-                        ),
-                        child: Text(
-                          'Get Started',
-                          style: TextStyle(
-                            fontSize: 18.0,
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
-                      SizedBox(height: 20.0),
-                      Text('Or sign up with'),
-                      SizedBox(height: 20.0),
-                      ElevatedButton.icon(
-                        onPressed: () {},
-                        icon: Icon(Icons.g_translate_outlined,
-                            color: Colors.black),
-                        label: Text('Sign up with Google',
-                            style: TextStyle(
-                              fontSize: 13.0,
-                              color: Colors.black,
-                            )),
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.white,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30.0),
-                          ),
-                          padding: EdgeInsets.symmetric(
-                              vertical: 20.0, horizontal: 30.0),
+                      Text(
+                        "Enter your credentials.",
+                        style: TextStyle(
+                          fontSize: 12.0,
+                          color: Colors.black,
                         ),
                       ),
                       SizedBox(height: 15.0),
-                      ElevatedButton.icon(
-                        onPressed: () {},
-                        icon: Icon(Icons.facebook_outlined),
-                        label: Text('Sign up with Facebook',
-                            style: TextStyle(
-                              fontSize: 13.0,
-                              color: Colors.white,
-                            )),
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.blue[900],
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30.0),
-                          ),
-                          padding: EdgeInsets.symmetric(
-                              vertical: 20.0, horizontal: 23.0),
-                        ),
-                      ),
-                      SizedBox(height: 38.0),
-                      TextButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Login(),
-                            ),
-                          );
-                        },
-                        child: Text.rich(
-                          TextSpan(
-                            text: 'Already have an account? ',
-                            style: TextStyle(
-                              color: Colors.black,
-                            ),
-                            children: [
-                              TextSpan(
-                                text: 'Log in!',
-                                style: TextStyle(
-                                  decoration:
-                                      TextDecoration.underline, // Subrayado
-                                ),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: TextField(
+                              keyboardType: TextInputType.text,
+                              decoration: const InputDecoration(
+                                icon: Icon(Icons.email),
+                                labelText: "E-mail",
+                                iconColor: Colors.black,
+                                focusColor: Colors.green,
+                                fillColor: Colors.green,
+                                hoverColor: Colors.green,
+                                border: OutlineInputBorder(),
+                                contentPadding: EdgeInsets.symmetric(
+                                    vertical: 9.0, horizontal: 15.0),
                               ),
-                            ],
+                            ),
                           ),
-                        ),
-                      )
+                        ],
+                      ),
+                      SizedBox(height: 10.0),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: TextField(
+                              obscureText: true,
+                              decoration: InputDecoration(
+                                icon: Icon(Icons.lock_outline),
+                                labelText: "Password",
+                                iconColor: Colors.black,
+                                focusColor: Colors.green,
+                                fillColor: Colors.green,
+                                hoverColor: Colors.green,
+                                border: OutlineInputBorder(),
+                                contentPadding: EdgeInsets.symmetric(
+                                    vertical: 9.0, horizontal: 15.0),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 22.0),
+                      Column(
+                        children: [
+                          ElevatedButton(
+                            onPressed: () {
+                              // Tu acción cuando se presione el botón
+                            },
+                            style: ElevatedButton.styleFrom(
+                              primary: Colors.green[800],
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(30.0),
+                              ),
+                              padding: EdgeInsets.symmetric(
+                                  vertical: 17.0, horizontal: 65.0),
+                            ),
+                            child: Text(
+                              'LOG IN',
+                              style: TextStyle(
+                                fontSize: 16.0,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          SizedBox(height: 10.0),
+                          Text(
+                            'Or log in with',
+                            style: TextStyle(fontSize: 11.5),
+                          ),
+                          SizedBox(height: 10.0),
+                          ElevatedButton.icon(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.g_translate_outlined,
+                              color: Colors.black,
+                              size: 14.0,
+                            ),
+                            label: Text('Log in with Google',
+                                style: TextStyle(
+                                  fontSize: 12.0,
+                                  color: Colors.black,
+                                )),
+                            style: ElevatedButton.styleFrom(
+                              primary: Colors.white,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(30.0),
+                              ),
+                              padding: EdgeInsets.symmetric(
+                                  vertical: 17.0, horizontal: 33.0),
+                            ),
+                          ),
+                          SizedBox(height: 10.0),
+                          ElevatedButton.icon(
+                            onPressed: () {},
+                            icon: Icon(Icons.facebook_outlined, size: 14.0),
+                            label: Text('Log in with Facebook',
+                                style: TextStyle(
+                                  fontSize: 12.0,
+                                  color: Colors.white,
+                                )),
+                            style: ElevatedButton.styleFrom(
+                              primary: Colors.blue[900],
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(30.0),
+                              ),
+                              padding: EdgeInsets.symmetric(
+                                  vertical: 17.5, horizontal: 27.0),
+                            ),
+                          ),
+                          SizedBox(height: 25.0),
+                          TextButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => SignUp(),
+                                ),
+                              );
+                            },
+                            child: Text.rich(
+                              TextSpan(
+                                text: 'You do not have an account? ',
+                                style: TextStyle(
+                                  color: Colors.black,
+                                ),
+                                children: [
+                                  TextSpan(
+                                    text: 'Sign Up!',
+                                    style: TextStyle(
+                                      decoration: TextDecoration.underline,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
                     ],
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
-          ],
+          ),
         ),
       ),
     );

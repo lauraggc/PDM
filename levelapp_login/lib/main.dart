@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 import 'package:flutter/material.dart';
 import 'package:levelapp_login/login.dart';
-import 'package:levelapp_login/login.dart';
+import 'package:levelapp_login/signup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -70,7 +70,14 @@ class _LoginHomeState extends State<LoginHome> {
             Column(
               children: [
                 ElevatedButton.icon(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignUp(),
+                      ),
+                    );
+                  },
                   icon: Icon(Icons.email),
                   label: Text('Sign up with e-mail',
                       style: TextStyle(
@@ -124,7 +131,7 @@ class _LoginHomeState extends State<LoginHome> {
                         EdgeInsets.symmetric(vertical: 22.0, horizontal: 40.0),
                   ),
                 ),
-                SizedBox(height: 38.0),
+                SizedBox(height: 35.0),
                 TextButton(
                   onPressed: () {
                     Navigator.push(
