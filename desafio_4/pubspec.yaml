@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^7.3.1
+  location: ^4.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -52,6 +54,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/chihuahua.jpg
+    - assets/jalisco.jpg
+    - assets/quintana_roo.jpg
+    - assets/cdmx.jpg
+    - assets/oaxaca.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
