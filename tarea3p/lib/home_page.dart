@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:tarea3p/info_lugar.dart';
 import 'package:tarea3p/item_actividad.dart';
+import 'package:tarea3p/provider.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({
@@ -88,6 +90,9 @@ class HomePage extends StatelessWidget {
                       ),
                       MaterialButton(
                         onPressed: () {
+                          final appState = Provider.of<ProviderState>(context,
+                              listen: false);
+                          appState.addReservation("Reservación en progreso");
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
                               content: Text("Reservación en progreso"),
@@ -99,7 +104,7 @@ class HomePage extends StatelessWidget {
                           style: TextStyle(color: Colors.white),
                         ),
                         color: Colors.red,
-                      ),
+                      )
                     ],
                   ),
                 ),
